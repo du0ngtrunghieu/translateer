@@ -30,7 +30,7 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "trunghiu-translateer-88"
-          entrypoint: "main.ts"
+          entrypoint: "src/app.ts"
           root: "."
           
           
